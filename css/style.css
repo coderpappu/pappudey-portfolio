@@ -1,0 +1,410 @@
+body{
+    background-color: #F6F7FF;
+    margin: 0;
+    padding: 0;
+}
+.banner_top {
+    margin-left: -38px;
+    margin-top: 18px;
+}
+.profile_menu {
+    background: #4A63E7;
+    width: 290px;
+    height: 657px;
+    overflow: hidden;
+    position: fixed;
+}
+.profile_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 18%;
+    margin-top: 10%;
+    box-shadow: 0px 1px 0px #ffffff, -1px 0px 10px #fff8f8;
+}
+
+.profile_name {
+    text-align: center;
+    margin-left: -19%;
+    margin-top: 5%;
+    font-size: 28px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.profiler_profession h5 {
+    margin-left: 15%;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+.dev-menu ul {
+    margin-left: 4%;
+}
+
+.dev-menu ul li {
+    list-style: none;
+}
+
+.dev-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dev-menu ul li a i {
+
+    font-size: 14px;
+    padding: 7px 20px 12px 0px;
+}
+.profile_menu {
+    float: left;
+}
+.dev-menu{
+    margin-top: 8%;
+}
+section.header_sec {
+    overflow: hidden;
+}
+.all_body img {
+    width: 98%;
+    height: 600px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px 0px rgb(74 99 231 / 10%);
+}
+
+.image_after {
+    position: absolute;
+    z-index: 10;
+    width: 75.8%;
+    height: 600px;
+    background: #475ed3e0;
+    top: 19px;
+    border-radius: 10px;
+}
+
+.banner_top_text {
+    position: absolute;
+    top: 171px;
+    z-index: 11;
+    left: 33%;
+}
+
+.banner_top_text h2 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.banner_top_text h4 {
+    font-family: 'Poppins';
+    font-size: 19px;
+    color: #fff;
+    margin: 13px 0px 80px 0px;
+}
+
+
+button#portfolio, #hireme, .cvDownload, .hireme2 {
+    padding: 12px 26px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    background: #FF5959;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+button#portfolio i, #hireme i, .hireme2 i, .cvDownload i {
+    margin-right: 12px;
+    font-size: 18px;
+}
+button#hireme {
+    background: none;
+    border: 1px solid #ddd;
+}
+
+
+button#portfolio:hover {
+    background: #4A63E7;
+    box-shadow: 0px 8px 15px 0px rgb(0 0 0 / 20%);
+    transform: translateY(-3px);
+}
+button#hireme:hover {
+    background: #fff;
+    box-shadow: 0px 8px 15px 0px rgb(0 0 0 / 20%);
+    transform: translateY(-3px);
+    color: #000;
+}
+.banner_top_text p {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin: 33px 0px;
+}
+span.color_bot, .color_bot2 {
+    position: relative;
+    z-index: 15;
+}
+
+span.color_bot::after, .color_bot2::after {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #FF5959;
+    border-radius: 50%;
+}
+span.color_bot2::after{
+    position: absolute;
+    top: 50px;
+    left: -35px;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #FF5959;
+    border-radius: 50%;
+}
+
+.about_me, .my_skill, .own_counter, .my_service {
+    width: 101%;
+    height: 638px;
+    background: white;
+    padding: 60px 60px 60px 60px;
+    margin: 30px 15px 30px -37px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px 0px rgb(74 99 231 / 10%);
+}
+/* 
+section Title style */ 
+
+.about_me_top h4, .my_skill_rename h4, .Service_title h4 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.border_about, .border_skill, .border_service{
+    position: absolute;
+    width: 34px;
+    height: 5px;
+    background: #FF5959;
+    top: 87%;
+    border-radius: 10px;
+    margin-top: 19px;
+}
+
+.top_about_text,.my_skill_rename,.Service_title{
+    position: relative;
+    z-index: 4;
+}
+/* section title style End */
+.about_me_top {
+    width: 100%;
+    height: 100px;
+}
+
+.about_me_Pic img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.about_me_detials h2 {
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.about_me_detials p {
+    font-family: 'Poppins';
+    text-align: justify;
+    margin-top: 35px;
+    margin-bottom: 38px;
+    color: #818181;
+    font-size: 16px;
+}
+
+.personal_details h3 {
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.personal_details h3 span {
+    color: #818181;
+}
+
+
+button.cvDownload {
+    padding: 11px 27px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.about_Me_bottom {
+    margin: 20px 0px;
+    
+}
+
+button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;font-size: 16px;
+    font-weight: 400;
+    text-transform: none;}
+
+.personal_details h3 {
+    font-size: 16px;
+}
+
+
+/* my skill section  */
+
+
+.my_skill_descripte {
+    margin: 85px 145px 0px 0px;
+}
+
+.my_skill_descripte p {
+    color: #898989;
+}
+
+.my_skill_bottom {
+    margin: 80px 0px 30px 0px;
+}
+.divMar {
+    margin: 22px 0px;
+}.progess_skill_name h5 {
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: #ff0076;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 20px;
+	width: 400px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0%;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.manTAskCom img {
+    width: 425px;
+    height: auto;
+    margin: 127px 0px 0px 0px;
+}
+.my_skill {
+    height: 900px !important;
+}
+.own_counter {
+    height: 240px;
+    background: #4A67DE;
+    color: #fff;
+}
+
+.icon i {
+    background: #FF5959;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 16px;
+}
+
+.box {
+    text-align: center;
+}
+
+.counter {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.text {
+    font-family: 'Poppins';
+}
+
+/* service Style  */
+
+.service_top {
+    width: 100%;
+    height: 120px;
+}
+
+.service_box {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 259px;
+    height: 190px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 10px;
+}
+.service_box_icon i {
+    font-size: 24px;
+    color: #FF5959;
+}
+.service_box_text h4 {
+    font-size: 19px;
+    font-family: 'Poppins';
+    margin: 15px 0px 15px 0px;
+    font-weight: 700;
+  
+}
+
+.service_box_text p {
+    color: #aba6a6;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.service_box_icon {
+    margin-top: 10px;
+}
+.service_box_icon {
+    margin-top: 10px;
+}
+
+.service_box:hover {
+    background: #FF5959;
+    color: #fff;
+    box-shadow: 0px 6px 15px 0px rgb(0 0 0 / 15%);
+}
+
+.service_box:hover i ,.service_box:hover p{
+    color: #fff;
+}
+
+.service_bottom {
+    margin-top: 40px;
+}
